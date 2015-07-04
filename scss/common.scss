@@ -1,0 +1,443 @@
+@import "compass/reset/";
+
+@import "_mixin.scss";
+//-------------------
+//reset
+//-------------------
+a{
+  color:$mainTextColor;
+  text-decoration:none;
+}
+html,body{
+    height:100%;
+}
+//---------------------
+//Base
+//---------------------
+
+body{
+  font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", "Osaka", "MS PGothic", arial, helvetica, sans-serif;
+
+}
+.bg-base{
+  background-color:$baseColor;
+}
+.hidden {
+  display: none;
+}
+
+.floatBox {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+.left {
+  float: left;
+}
+
+.right{
+  float:right;
+}
+.small-font {
+  font-size: $smallFont;
+}
+
+.medium-font {
+  font-size: $mediumFont;
+}
+
+.large-font {
+  font-size: $largeFont
+}
+.center-txt{
+  text-align:center;
+}
+
+@for $i from 0 through 10 {
+  .mt#{$i*10} {
+    margin-top: 10px*$i!important;
+  }
+  .mb#{$i*10}{
+    margin-bottom: 10px*$i!important;
+  }
+  .mr#{$i*10} {
+     margin-right:10px*$i!important;
+  }
+  .ml#{$i*10}{
+    margin-left:10px*$i!important;
+  }
+  .pt#{$i*10} {
+    padding-top: 10px*$i!important;
+  }
+  .pb#{$i*10}{
+    padding-bottom: 10px*$i!important;
+  }
+  .pr#{$i*10} {
+     padding-right:10px*$i!important;
+  }
+  .pl#{$i*10}{
+     padding-left:10px*$i!important;
+  }
+
+}
+.center{
+  text-align: center!important;
+}
+.auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.none{
+  display:none!important;
+}
+.opc0{
+  opacity:0!important;
+}
+//---------------------
+//Layout
+//---------------------
+.innerWrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+//header
+.header {
+  height: 50px;
+  border-bottom: 3px solid $mainColor;
+  background-color: $reverseColor;
+  //text-align:center;
+  li {
+    float: left;
+    height: 50px;
+  }
+  .logo-area {
+    width: 80%;
+    display: block;
+    position: relative;
+    .logo {
+      width: 100%;
+      position: absolute;
+      margin: 0 auto;
+//      text-align: center;
+      top: 50%;
+      margin-top: -15px;
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+  .menu-trigger-area {
+    width: 20%;
+    .menu {
+      width: 35px;
+      height: 60px;
+      position: relative;
+      float: right;
+      margin-right: 10px;
+    }
+    .menu:before,
+    .menu:after {
+      content: '';
+      display: block;
+      height: 4px;
+      width: 35px;
+      background-color: $mainColor;
+      position: absolute;
+      @include css3(border-radius, 20px);
+      margin: 0 auto;
+    }
+    .menu:before {
+      top: 10px;
+      @include css3(box-shadow, $mainColor 0 10px 0);
+    }
+    .menu:after {
+      top: 30px;
+    }
+  }
+}
+
+//menuiconアニメーション
+.wrapper {
+  background-color:$baseColor;
+  min-height: 600px;
+  right: 0px;
+  position: relative;
+  z-index:2;
+  background-color: $reverseColor;
+  @include css3(transition, right 0.3s ease-out);
+  .gray-layer{
+    width:100%;
+    min-height:600px;
+    top:0px;
+    right:0px;
+    position:absolute;
+    background-color:rgba(0,0,0,0);
+    z-index:-1000;
+  @include css3(transition, background-color 0.3s ease-out);
+  @include css3(transition, z-index 0.1s linear 0.3s);
+  }
+}
+
+.wrapper.wrapper-shift {
+  right: 200px;
+  @include css3(transition, right 0.3s ease-out);
+  .gray-layer{
+    background-color:rgba(0,0,0,0.7);
+    z-index:1000;
+  @include css3(transition, background-color 0.3s linear);
+  }
+}
+
+//menu-area
+.menu-area {
+  box-sizing: content-box;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  border: 1px solid $mainColor;
+  .user-area {
+    $ua-height: 80px;
+    $ui-height: 70px;
+    width: 90%;
+    height: $ua-height;
+    .user-icon {
+      margin-top: ($ua-height - $ui-height)/2;
+      margin-right: 10px;
+    }
+    .user-name {
+      display: block;
+      line-height: 70px;
+    }
+  }
+
+  .menu-link-area {
+    $height:60px;
+    display:block;
+    width: 100%;
+    height: $height;
+    border-top: 1px solid $mainColor;
+    border-bottom: 1px solid $mainColor;
+    box-sizing: content-box;
+    background-color: $reverseColor;
+    span{
+      text-align:center;
+      display:block;
+      line-height:$height;
+    }
+
+    &:active{
+      background-color: darken($reverseColor,10%);
+
+    }
+  }
+  .menu-hist-area{
+    .title{
+      height:30px;
+      text-align:center;
+     padding-top:10px;
+    }
+    .rcp-list{
+      padding-top:10px;
+      padding-bottom:10px;
+      .rcp-img{
+        width:30%;
+        float:left;
+        text-align:center;
+      }
+      .rcp-ttl{
+        width:70%;
+        float:left;
+        text-align:center;
+        font-size:$smallFont;
+      }
+    }
+  }
+}
+.content-area{
+  min-height:450px;
+}
+
+
+
+//footer
+.footer {
+  width:100%;
+  height:50px;
+  border-top:3px solid $mainColor;
+  font-size:$smallFont;
+  text-align:center;
+  line-height:50px;
+  background-color:$reverseColor;
+  bottom:0px;
+  z-index: 2;
+}
+
+
+//---------------------
+//Module
+//----------------------
+.btn {
+  display:block;
+  text-align: center;
+  border: 1px solid $mainColor;
+  overflow: hidden;
+  text-decoration: none;
+}
+.btn-group{
+  .text-align:center;
+  .btn{
+    display:inline-block;
+    text-align:center;
+  }
+}
+.btn.medium {
+  $height: 50px;
+  width: $height*3;
+  height: $height;
+  line-height: $height;
+  @include css3(border-radius, $height/2);
+  font-size: $mediumFont;
+}
+
+.btn.small {
+  $height: 30px;
+  width: $height*4;
+  height: $height;
+  line-height: $height;
+  @include css3(border-radius, $height/2);
+  font-size: $smallFont;
+}
+
+.btn.primary {
+  background-color: $mainColor;
+  color: $reverseColor;
+  &:active{
+     background-color:darken($mainColor,10%);
+  }
+}
+
+.btn.normal {
+  background-color: $reverseColor;
+    color: $mainColor;
+  &:active{
+    background-color:darken($reverseColor,10%);
+  }
+}
+
+.label {
+  background-color: $labelColor;
+  color: $reverseColor;
+  padding: 3px 15px;
+  @include css3(border-radius, 25px);
+  font-size: $smallFont;
+  margin:3px;
+}
+
+//btn-primary
+//------------------------------
+//State
+//-----------------------------
+//-----------------------------
+//Theme
+//-----------------------------
+//Shame
+
+
+
+//Message UI
+.card {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 5px;
+  border: 1px solid $mainColor;
+  background-color:lighten($mainColor,40%);
+  .mainVisual {
+    width: 100%;
+    margin-bottom:10px;
+  }
+}
+.mainVisual {
+  @include css3(transition,height 0.2s linear);
+  overflow: hidden;
+  position: relative;
+    .stock-btn {
+      z-index: 5;
+      position: absolute;
+      right:0px;
+      display: block;
+      width: 40px;
+      height: 50px;
+      color:$reverseColor;
+      &.stocked i{
+        color:$mainColor;
+      }
+      & .anm{
+        opacity:0;
+        color:$mainColor;
+        animation:stockAnm 1s linear 1 normal;
+        position: absolute;
+        right:0px;
+
+      }
+      .fa-3x{
+        font-size:2.5em;
+      }
+    }
+  img {
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    line-height: 50px;
+    padding-right: 10px;
+  }
+}
+
+@-webkit-keyframes stockAnm{
+  0%{}
+  100%{}
+}
+//top page
+.msg-area    {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.panel-box{
+  @extend .auto;
+  display:block;
+  width:80%;
+  margin-bottom:10px;
+  text-align:center;
+  .panel{
+  width:100px;
+  height:100px;
+  border:1px solid $mainColor;
+  display:inline-block;
+  background-color:$reverseColor;
+  padding:5px;
+  @include css3(border-radius,5px);
+  &:active{
+    background-color:darken($reverseColor,10%);
+
+  }
+  img{
+      width:100%;
+  }
+  }
+}
+.error-icon{
+  color:$mainColor;
+}

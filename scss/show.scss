@@ -1,0 +1,125 @@
+@import "_mixin.scss";
+/*style css*/
+
+.cardBox {
+  box-shadow: 5px 5px 30px;
+  @include css3(border-radius, 3px);
+  border: 1px solid $mainColor;
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  height: 350px;
+  @include css3(transition, "width 0.5s linear,height 0.5s linear,border 1s linear 1s");
+  overflow: hidden;
+  &:active {
+    background-color: darken($reverseColor, 10%);
+  }
+  &:active {
+    content: "";
+    display: block;
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 60px;
+    bottom:0px;
+    position:absolute;
+    background: linear-gradient(transparent, #fff);
+  }
+}
+
+.cardBox.detailPage {
+  width: 100%;
+}
+
+.cardFrame {
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  &.detailPage {
+    position: inherit;
+    overflow: visible;
+  }
+}
+.bg{
+    position:fixed;
+      background-image:url("../img/011100130.jpg");
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+      background-position:10px;
+      display:block;
+      width:100%;
+      height:100%;
+      @include css3(filter,blur(30px));
+  }
+#box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.cardHover {
+  width: 120%;
+  height: 120%;
+  top: 100px;
+}
+
+.cardBox.cardHover {
+  z-index: 100!important;
+}
+
+@-webkit-keyframes makeCardBig {
+  0% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 120%;
+    height: 120%;
+  }
+}
+
+.receipe-card {
+  padding: 20px;
+  .img {
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+  }
+  .txt {
+    margin-top: 35px;
+    float: left;
+    width: 55%;
+  }
+}
+
+.nav-category {
+  opacity: 1;
+  z-index: 4;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid $mainColor;
+  padding: 10px;
+  color: $mainColor;
+  background-color: rgba(250, 250, 250, 0.8);
+  @include css3(transition, opacity 1s linear);
+  .search-word {
+    text-decoration: underline;
+    color: $labelColor;
+  }
+  .link {
+    float: right;
+    margin-right: 10px;
+    font-size: $smallFont;
+    color: $labelColor;
+    text-decoration: underline;
+  }
+}

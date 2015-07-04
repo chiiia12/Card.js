@@ -1,0 +1,14 @@
+$mainColor:#F83929;
+$reverseColor:#fff;
+$mainTextColor:#000;
+$labelColor:#2F3448;
+$baseColor:#fffdf0;
+$smallFont:12px;
+$mediumFont:16px;
+$largeFont:20px;
+@mixin css3($property,$value){
+    @each $prefix in -webkit-, -moz-,-ms-,-o-,''{
+        #{$prefix}#{$property}:$value;
+    }
+}
+
