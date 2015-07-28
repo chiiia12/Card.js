@@ -1,464 +1,464 @@
 @charset "UTF-8";
-/* line 5, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 5, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 a {
   color: #000;
   text-decoration: none; }
 
-/* line 9, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 9, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 html, body {
   height: 100%; }
 
-/* line 16, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 16, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 body {
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", "Osaka", "MS PGothic", arial, helvetica, sans-serif; }
 
-/* line 20, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 20, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .bg-base {
   background-color: #fffdf0; }
 
-/* line 23, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 23, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .hidden {
   display: none; }
 
-/* line 28, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 28, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .floatBox:after {
   content: '';
   display: block;
   clear: both; }
 
-/* line 34, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 34, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .left {
   float: left; }
 
-/* line 38, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 38, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .right {
   float: right; }
 
-/* line 41, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 41, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .small-font {
   font-size: 12px; }
 
-/* line 45, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 45, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .medium-font {
   font-size: 16px; }
 
-/* line 49, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 49, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .large-font {
   font-size: 20px; }
 
-/* line 52, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 52, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .center-txt {
   text-align: center; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt0 {
   margin-top: 0px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb0 {
   margin-bottom: 0px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr0 {
   margin-right: 0px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml0 {
   margin-left: 0px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt0 {
   padding-top: 0px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb0 {
   padding-bottom: 0px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr0 {
   padding-right: 0px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl0 {
   padding-left: 0px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt10 {
   margin-top: 10px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb10 {
   margin-bottom: 10px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr10 {
   margin-right: 10px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml10 {
   margin-left: 10px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt10 {
   padding-top: 10px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb10 {
   padding-bottom: 10px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr10 {
   padding-right: 10px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl10 {
   padding-left: 10px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt20 {
   margin-top: 20px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb20 {
   margin-bottom: 20px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr20 {
   margin-right: 20px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml20 {
   margin-left: 20px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt20 {
   padding-top: 20px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb20 {
   padding-bottom: 20px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr20 {
   padding-right: 20px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl20 {
   padding-left: 20px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt30 {
   margin-top: 30px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb30 {
   margin-bottom: 30px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr30 {
   margin-right: 30px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml30 {
   margin-left: 30px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt30 {
   padding-top: 30px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb30 {
   padding-bottom: 30px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr30 {
   padding-right: 30px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl30 {
   padding-left: 30px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt40 {
   margin-top: 40px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb40 {
   margin-bottom: 40px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr40 {
   margin-right: 40px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml40 {
   margin-left: 40px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt40 {
   padding-top: 40px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb40 {
   padding-bottom: 40px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr40 {
   padding-right: 40px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl40 {
   padding-left: 40px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt50 {
   margin-top: 50px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb50 {
   margin-bottom: 50px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr50 {
   margin-right: 50px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml50 {
   margin-left: 50px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt50 {
   padding-top: 50px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb50 {
   padding-bottom: 50px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr50 {
   padding-right: 50px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl50 {
   padding-left: 50px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt60 {
   margin-top: 60px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb60 {
   margin-bottom: 60px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr60 {
   margin-right: 60px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml60 {
   margin-left: 60px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt60 {
   padding-top: 60px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb60 {
   padding-bottom: 60px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr60 {
   padding-right: 60px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl60 {
   padding-left: 60px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt70 {
   margin-top: 70px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb70 {
   margin-bottom: 70px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr70 {
   margin-right: 70px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml70 {
   margin-left: 70px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt70 {
   padding-top: 70px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb70 {
   padding-bottom: 70px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr70 {
   padding-right: 70px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl70 {
   padding-left: 70px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt80 {
   margin-top: 80px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb80 {
   margin-bottom: 80px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr80 {
   margin-right: 80px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml80 {
   margin-left: 80px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt80 {
   padding-top: 80px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb80 {
   padding-bottom: 80px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr80 {
   padding-right: 80px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl80 {
   padding-left: 80px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt90 {
   margin-top: 90px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb90 {
   margin-bottom: 90px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr90 {
   margin-right: 90px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml90 {
   margin-left: 90px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt90 {
   padding-top: 90px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb90 {
   padding-bottom: 90px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr90 {
   padding-right: 90px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl90 {
   padding-left: 90px !important; }
 
-/* line 56, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 56, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mt100 {
   margin-top: 100px !important; }
 
-/* line 59, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 59, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mb100 {
   margin-bottom: 100px !important; }
 
-/* line 62, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 62, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mr100 {
   margin-right: 100px !important; }
 
-/* line 65, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 65, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .ml100 {
   margin-left: 100px !important; }
 
-/* line 68, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 68, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pt100 {
   padding-top: 100px !important; }
 
-/* line 71, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 71, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pb100 {
   padding-bottom: 100px !important; }
 
-/* line 74, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 74, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pr100 {
   padding-right: 100px !important; }
 
-/* line 77, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 77, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .pl100 {
   padding-left: 100px !important; }
 
-/* line 83, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 83, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .center {
   text-align: center !important; }
 
-/* line 86, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 86, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .auto, .panel-box {
   margin-right: auto;
   margin-left: auto; }
 
-/* line 90, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 90, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .none {
   display: none !important; }
 
-/* line 93, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 93, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .opc0 {
   opacity: 0 !important; }
 
-/* line 99, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 99, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .innerWrap {
   width: 90%;
   margin: 0 auto; }
 
-/* line 105, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 105, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .header {
   height: 50px;
   border-bottom: 3px solid #F83929;
   background-color: #fff; }
-  /* line 110, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 110, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .header li {
     float: left;
     height: 50px; }
-  /* line 114, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 114, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .header .logo-area {
     width: 80%;
     display: block;
     position: relative; }
-    /* line 118, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 118, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .header .logo-area .logo {
       width: 100%;
       position: absolute;
       margin: 0 auto;
       top: 50%;
       margin-top: -15px; }
-      /* line 125, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+      /* line 125, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
       .header .logo-area .logo img {
         margin: 0 auto; }
-  /* line 130, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 130, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .header .menu-trigger-area {
     width: 20%; }
-    /* line 132, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 132, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .header .menu-trigger-area .menu {
       width: 35px;
       height: 60px;
       position: relative;
       float: right;
       margin-right: 10px; }
-    /* line 140, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 140, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .header .menu-trigger-area .menu:before,
     .header .menu-trigger-area .menu:after {
       content: '';
@@ -473,7 +473,7 @@ body {
       -o-border-radius: 20px;
       border-radius: 20px;
       margin: 0 auto; }
-    /* line 150, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 150, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .header .menu-trigger-area .menu:before {
       top: 10px;
       -webkit-box-shadow: #F83929 0 10px 0;
@@ -481,11 +481,11 @@ body {
       -ms-box-shadow: #F83929 0 10px 0;
       -o-box-shadow: #F83929 0 10px 0;
       box-shadow: #F83929 0 10px 0; }
-    /* line 154, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 154, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .header .menu-trigger-area .menu:after {
       top: 30px; }
 
-/* line 161, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 161, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .wrapper {
   background-color: #fffdf0;
   min-height: 600px;
@@ -498,7 +498,7 @@ body {
   -ms-transition: right 0.3s ease-out;
   -o-transition: right 0.3s ease-out;
   transition: right 0.3s ease-out; }
-  /* line 169, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 169, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .wrapper .gray-layer {
     width: 100%;
     min-height: 600px;
@@ -518,7 +518,7 @@ body {
     -o-transition: z-index 0.1s linear 0.3s;
     transition: z-index 0.1s linear 0.3s; }
 
-/* line 182, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 182, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .wrapper.wrapper-shift {
   right: 200px;
   -webkit-transition: right 0.3s ease-out;
@@ -526,7 +526,7 @@ body {
   -ms-transition: right 0.3s ease-out;
   -o-transition: right 0.3s ease-out;
   transition: right 0.3s ease-out; }
-  /* line 185, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 185, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .wrapper.wrapper-shift .gray-layer {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
@@ -536,7 +536,7 @@ body {
     -o-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear; }
 
-/* line 193, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 193, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .menu-area {
   box-sizing: content-box;
   width: 200px;
@@ -546,19 +546,19 @@ body {
   right: 0px;
   z-index: 1;
   border: 1px solid #F83929; }
-  /* line 202, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 202, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .menu-area .user-area {
     width: 90%;
     height: 80px; }
-    /* line 207, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 207, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .user-area .user-icon {
       margin-top: 5px;
       margin-right: 10px; }
-    /* line 211, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 211, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .user-area .user-name {
       display: block;
       line-height: 70px; }
-  /* line 217, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 217, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .menu-area .menu-link-area {
     display: block;
     width: 100%;
@@ -567,40 +567,40 @@ body {
     border-bottom: 1px solid #F83929;
     box-sizing: content-box;
     background-color: #fff; }
-    /* line 226, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 226, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .menu-link-area span {
       text-align: center;
       display: block;
       line-height: 60px; }
-    /* line 232, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 232, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .menu-link-area:active {
       background-color: #e6e6e6; }
-  /* line 238, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 238, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .menu-area .menu-hist-area .title {
     height: 30px;
     text-align: center;
     padding-top: 10px; }
-  /* line 243, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 243, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .menu-area .menu-hist-area .rcp-list {
     padding-top: 10px;
     padding-bottom: 10px; }
-    /* line 246, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 246, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .menu-hist-area .rcp-list .rcp-img {
       width: 30%;
       float: left;
       text-align: center; }
-    /* line 251, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 251, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .menu-area .menu-hist-area .rcp-list .rcp-ttl {
       width: 70%;
       float: left;
       text-align: center;
       font-size: 12px; }
 
-/* line 260, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 260, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .content-area {
   min-height: 450px; }
 
-/* line 267, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 267, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .footer {
   width: 100%;
   height: 50px;
@@ -612,7 +612,7 @@ body {
   bottom: 0px;
   z-index: 2; }
 
-/* line 283, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 283, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn {
   display: block;
   text-align: center;
@@ -620,15 +620,15 @@ body {
   overflow: hidden;
   text-decoration: none; }
 
-/* line 290, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 290, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn-group {
   text-align: center; }
-  /* line 292, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 292, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .btn-group .btn {
     display: inline-block;
     text-align: center; }
 
-/* line 297, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 297, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn.medium {
   width: 150px;
   height: 50px;
@@ -640,7 +640,7 @@ body {
   border-radius: 25px;
   font-size: 16px; }
 
-/* line 306, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 306, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn.small {
   width: 120px;
   height: 30px;
@@ -652,23 +652,23 @@ body {
   border-radius: 15px;
   font-size: 12px; }
 
-/* line 315, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 315, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn.primary {
   background-color: #F83929;
   color: #fff; }
-  /* line 318, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 318, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .btn.primary:active {
     background-color: #e61908; }
 
-/* line 323, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 323, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .btn.normal {
   background-color: #fff;
   color: #F83929; }
-  /* line 326, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 326, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .btn.normal:active {
     background-color: #e6e6e6; }
 
-/* line 331, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 331, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .label {
   background-color: #2F3448;
   color: #fff;
@@ -681,22 +681,20 @@ body {
   font-size: 12px;
   margin: 3px; }
 
-/* line 352, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 352, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .card {
-  position: absolute;
   display: block;
   width: 90%;
-  height: 300px;
   margin: 0 auto;
   padding: 20px 5px;
   border: 1px solid #F83929;
   background-color: #fef0ef; }
-  /* line 361, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 359, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .card .mainVisual {
     width: 100%;
     margin-bottom: 10px; }
 
-/* line 366, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 364, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .mainVisual {
   -webkit-transition: height 0.2s linear;
   -moz-transition: height 0.2s linear;
@@ -705,30 +703,32 @@ body {
   transition: height 0.2s linear;
   overflow: hidden;
   position: relative; }
-  /* line 370, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 368, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .mainVisual .stock-btn {
     z-index: 5;
     position: absolute;
     right: 0px;
     display: block;
+    width: 40px;
+    height: 50px;
     color: #fff; }
-    /* line 378, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 376, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .mainVisual .stock-btn.stocked i {
       color: #F83929; }
-    /* line 381, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 379, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .mainVisual .stock-btn .anm {
       opacity: 0;
       color: #F83929;
       animation: stockAnm 1s linear 1 normal;
       position: absolute;
       right: 0px; }
-    /* line 389, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 387, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .mainVisual .stock-btn .fa-3x {
       font-size: 2.5em; }
-  /* line 393, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 391, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .mainVisual img {
     width: 100%; }
-  /* line 396, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 394, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .mainVisual .overlay {
     position: absolute;
     bottom: 0%;
@@ -745,18 +745,18 @@ body {
   0% { }
   100% { } }
 
-/* line 415, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 413, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .msg-area {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 419, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 417, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .panel-box {
   display: block;
   width: 80%;
   margin-bottom: 10px;
   text-align: center; }
-  /* line 425, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+  /* line 423, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
   .panel-box .panel {
     width: 100px;
     height: 100px;
@@ -769,14 +769,14 @@ body {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-    /* line 433, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 431, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .panel-box .panel:active {
       background-color: #e6e6e6; }
-    /* line 437, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+    /* line 435, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
     .panel-box .panel img {
       width: 100%; }
 
-/* line 442, /Users/chiiia12/Documents/workspace/card.js/css/common.scss */
+/* line 440, /Users/chiiia12/Documents/workspace/card.js/scss/common.scss */
 .error-icon {
   color: #F83929; }
 
