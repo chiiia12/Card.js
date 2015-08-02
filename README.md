@@ -1,5 +1,4 @@
-# Card.js
-![mainVisual](img/mainVisual.jpg)
+![mainVisual](./img/mainVisual.jpg)
 
 # Usage
 
