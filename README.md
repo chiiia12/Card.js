@@ -1,4 +1,4 @@
-![mainVisual](./img/mainVisual.jpg)
+![mainVisual](https://github.com/chiiia12/Card.js/blob/master/img/mainVIsual.jpg)
 
 # Usage
 
