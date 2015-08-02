@@ -1,9 +1,19 @@
 var cardNum;
 
+init={
+    "width":10,
+    "height":100,
+    "margin":100
+}
+var init = {
+    "width":null,
+    "height":null,
+    "margin":null
+}
 
 function Card(index,element) {
     var card= $(element);
-    this.widthValue =  200;
+    this.widthValue =  init.width==null? 300:init.width;
     this.heightValue = 300;
     this.marginValue = 50;
     this.render = function (scrollY) {
@@ -13,7 +23,10 @@ function Card(index,element) {
             "top": Math.sin(offset / 540 * Math.PI) * (this.heightValue+this.marginValue) + 50 + "px",
             "left": Math.cos(offset / 540 * Math.PI) * 350 - 340 + "px",
             "transform": "rotateZ(" + offset / (6) + "deg)",
-            "z-index": cardNum - index
+            "z-index": cardNum - index,
+            "width":this.widthValue+"px",
+            "height":this.heightValue+"px",
+
         });
     }
     this.getCard = function () {
